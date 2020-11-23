@@ -876,6 +876,138 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 }
 
+/* opensource Section
+--------------------------------*/
+#opensource {
+  background: #fff;
+  padding: 80px 0 60px 0;
+}
+
+#opensource .opensource-main-title {
+  font-weight: 700;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  color: #24456f;
+}
+
+#opensource .opensource-main-description {
+  margin-left: 0px;
+  font-size: 20px;
+}
+
+#opensource .opensource-main {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+#opensource .opensource-item {
+  margin-bottom: 20px;
+}
+
+#opensource .opensource-icon {
+  float: left;
+  background: #24456f;
+  padding: 16px;
+  border-radius: 5%;
+  transition: 0.5s;
+  border: 1px solid #24456f;
+}
+
+#opensource .opensource-icon i {
+  color: #fff;
+  font-size: 32px;
+}
+
+#opensource .opensource-item:hover .opensource-icon {
+  background: #fff;
+}
+
+#opensource .opensource-item:hover .opensource-icon i {
+  color: #d81d56;
+}
+
+#opensource .opensource-title {
+  margin-left: 0px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #24456f;
+}
+
+#opensource .opensource-title a {
+  color: #24456f;
+}
+
+#opensource .opensource-description {
+  margin-left: 0px;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+#opensource .ico-opensource {
+ display: block; 
+ margin-left: auto; 
+ margin-right: auto; 
+ width:20%;
+}
+
+#opensource .opensource-btn-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#opensource .opensource-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#opensource .opensource-btn2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  background: #d81d56;
+  border: 2px solid #d81d56;
+  color: #fff;
+}
+
+#opensource .opensource-btn:hover {
+  background: #d81d56;
+  border: 2px solid #d81d56;
+}
+
+#opensource .opensource-btn2:hover {
+  background: none;
+  border: 2px solid #24456f;
+  color: #24456f;
+}
+
+
+@media (max-width: 1000px) {
+#opensource .ico-opensource  {
+ width:20% !important;
+  }
+  #opensource .opensource-item {
+  text-align: center;
+}
+}
+
 /* SOLUTIONS Section
 --------------------------------*/
 #solutions {
@@ -1068,148 +1200,6 @@ text-align: center;
   border: 2px solid #fff;
 }
 
-
-/* OFFERING Section
---------------------------------*/
-#offering {
-  background: #fff;
-  padding: 140px 0 140px 0;
-}
-
-#offering .member {
-  text-align: center;
-  padding: 10px;
-  border-color: #24456f;
-  background-color: #f6f6f6;
-  box-shadow: 0px 12px 59px 0px rgba(10, 10, 60, 0.25);
-  width: 90%;
-  display: table-cell; 
-  margin-left: auto; 
-  margin-right: auto; 
-  margin-bottom: 20px; 
-  padding-bottom: 40px;
-  margin-top: 60px; 
-  height: 440px;
-vertical-align: bottom;
-}
-
-#offering .prices {
-  margin-left: 30px; 
-  margin-right: 30px; 
-}
-
-#offering .member .pic {
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
-}
-
-#offering .member .pic img {
-  max-width: 100%;
-}
-
-#offering .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-}
-
-#offering .member span {
-  display: block;
-  font-size: 14px;
-  width: 80%
-  max-width: 100%;
-}
-
-#offering .member .social {
-  margin-top: 15px;
-}
-
-#offering .member .social a {
-  color: #b3b3b3;
-}
-
-#offering .member .social a:hover {
-  color: #d81d56;
-}
-
-#offering .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-#offering .subscribe-btn-container {
-  text-align: center;
-  padding-top: 20px;
-}
-
-#offering .subscribe-btn {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 20px;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#offering .subscribe-btn2 {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 20px;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin: 10px;
-  background: #d81d56;
-  border: 2px solid #d81d56;
-  color: #fff;
-}
-
-#offering .subscribe-btn:hover {
-  background: #d81d56;
-  border: 2px solid #d81d56;
-}
-
-#offering .subscribe-btn2:hover {
-  background: none;
-  border: 2px solid #24456f;
-  color: #24456f;
-}
-
-#offering .member:hover {
-  box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.55);
-  transition: 0.9s;
-}
-
-@media (max-width: 1024px){
-#offering .member {
-  width: 320px;
-  margin-bottom: 10px; 
-  margin-top: 10px; 
-}
-}
-
-#offering .row {
-    text-align: center;
-    display: table;
-    margin: auto;
-}
-
-#offering h4 {
-    font-size: 22px; 
-	color: #24456f; 
-	margin: 40px 20px 90px 20px; 
-	margin-bottom: 30px !important;
-	letter-spacing: -0.05em
-}
 
 
 /* Contact Section
@@ -1674,6 +1664,22 @@ vertical-align: bottom;
 #master .master-btn2 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  background: #d81d56;
+  border: 2px solid #d81d56;
+  color: #fff;
+}
+
+#master .master-btn3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: none;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
